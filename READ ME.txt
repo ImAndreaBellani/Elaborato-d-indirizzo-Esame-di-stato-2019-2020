@@ -1,0 +1,52 @@
+<----------------------------------------------------------------------------------------->
+				       Dati elaborato
+<----------------------------------------------------------------------------------------->
+
+ Classe:  							                       5FI
+
+ Nome:   						  		            Andrea
+ Cognome: 						 		           Bellani
+
+ Indirizzo mail:				    andrea.bellani.01@marconigorgonzola.it
+
+ Titolo elaborato: 				 		   Online notes submission
+
+ Materie coinvolte: 					  TPSI, sitemi e reti, informatica
+
+<----------------------------------------------------------------------------------------->
+			   	     Guida alle cartelle
+<----------------------------------------------------------------------------------------->
+
+ DOCUMENTO: contiene l'elaborato vero e proprio:
+
+            5FI - Bellani Andrea - Online notes submission [ELABORATO ESAME DI STATO].pdf
+
+<----------------------------------------------------------------------------------------->
+
+ POWERPOINT: contiene il powerpoint che utilizzerò per la spiegazione,
+	     che illustra, con delle animazioni, le fasi principali del
+	     progetto:
+
+	     5FI - Bellani Andrea - Online notes submission [PRESENTAZIONE].pptx
+
+<----------------------------------------------------------------------------------------->
+
+ SCRIPT: contiene le pagine .php che compongono il sito, i .css per le skin
+	 ed un file .html che include la copia degli script sul sito principale
+	 realizzato con il CMS "Google Sites".
+
+<----------------------------------------------------------------------------------------->
+
+ VIDEO: contiene il video di presentazione del sito, in base al tempo a disposizione,
+        possiamo decidere se vederlo anche il giorno dell'esame, oppure passare
+	direttamente alle slide (il video non ha bisogno di spiegazioni di supporto):
+
+        5FI - Bellani Andrea - Online notes submission [VIDEO].mp4
+
+<----------------------------------------------------------------------------------------->
+					    Altro
+<----------------------------------------------------------------------------------------->
+
+ Link sito principale: https://www.andreabellani.com
+
+<----------------------------------------------------------------------------------------->
