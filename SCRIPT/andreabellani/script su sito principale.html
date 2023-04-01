@@ -1,0 +1,131 @@
+<!---------------------------------------------------------------------------------------------------------------
+
+						registrati.html
+
+---------------------------------------------------------------------------------------------------------------->
+<html>
+	<head>
+		<style>
+			input[type=text]
+				{
+  					width: 100%;
+  					padding: 12px 20px;
+  					margin: 8px 0;
+  					box-sizing: border-box;
+					background-color: #3CBC8D;
+				}
+			input[type=password]
+				{
+  					width: 100%;
+  					padding: 12px 20px;
+  					margin: 8px 0;
+  					box-sizing: border-box;
+					background-color: crimson;
+				}
+			input[type=submit]
+				{
+  					background-color: #4CAF50;
+ 					border: none;
+  					color: white;
+  					padding: 16px 32px;
+  					text-decoration: none;
+ 					margin: 4px 2px;
+  					cursor: pointer;
+				}
+			form
+				{
+					text-align: center;
+					font-family: ink free;
+					font-size: 24pt;
+					color: white;
+				}
+			div
+				{
+					width: 100%;
+					height: auto;
+					text-align: center;
+					font-family: ink free;
+					color: white;
+					font-size: 20;
+				}
+		</style>
+	</head>
+	<body>
+		<div>
+			C'è tanto da scrivere! Registrandoti gratuitamente puoi mandarci un tuo documento su uno degli argomenti su cui attualmente cerchiamo dispense. Appena possibile lo controlleremo e ti faremo sapere cosa ne pensiamo. Se lo troveremo particolarmente interessante potremmo pubblicarlo!
+		</div>
+		<br>
+		<br>
+		<br>
+		<!--
+			una volta cliccato il pulsante di invio, il form invia i dati inseriti ad
+			"https://account.andreabellani.com/andreabellani/registrazione.php"
+			con il metodo HTTP "POST".
+			Preferiamo utilizzare "POST" perché stiamo inserendo dei dati sensibili,
+			l'alternativa sarebbe l'utilizzo del metodo di default "GET", che utilizza l'URL
+			per il passaggio dei parametri.
+		-->
+		<form action="https://account.andreabellani.com/andreabellani/registrazione.php" method="post">
+			Il tuo username:
+			<input type="text" name="username">
+			La tua password:
+			<input type="password" name="password0">
+			Reinserisci la password
+			<input type="password" name="password">
+			<input type="submit">
+		</form>
+	</body>
+</html>
+<!---------------------------------------------------------------------------------------------------------------
+
+						  accedi.html
+
+---------------------------------------------------------------------------------------------------------------->
+<html>
+	<head>
+		<style>
+			input[type=text]
+				{
+  					width: 100%;
+  					padding: 12px 20px;
+  					margin: 8px 0;
+  					box-sizing: border-box;
+					background-color: #3CBC8D;
+				}
+			input[type=password]
+				{
+  					width: 100%;
+  					padding: 12px 20px;
+  					margin: 8px 0;
+  					box-sizing: border-box;
+					background-color: crimson;
+				}
+			input[type=submit]
+				{
+  					background-color: #4CAF50;
+ 					border: none;
+  					color: white;
+  					padding: 16px 32px;
+  					text-decoration: none;
+ 					margin: 4px 2px;
+  					cursor: pointer;
+				}
+			form
+				{
+					text-align: center;
+					font-family: ink free;
+					font-size: 24pt;
+					color: white;
+				}
+		</style>
+	</head>
+	<body>
+		<form action="https://account.andreabellani.com/andreabellani/login.php" method="post">
+			Il tuo username:
+			<input type="text" name="username">
+			La tua password:
+			<input type="password" name="password">
+			<input type="submit">
+		</form>
+	</body>
+</html>
