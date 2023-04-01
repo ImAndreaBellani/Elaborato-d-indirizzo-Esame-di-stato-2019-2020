@@ -1,0 +1,125 @@
+.menubar
+	{
+		background-color: #be03fc;
+	}
+.delete_buttons
+	{
+		background-color: #fc03df;
+		border: none;
+		color: white;
+  		padding: 15px 15px;
+ 		text-align: center;
+  		display: inline-block;
+  		margin: 4px 2px;
+		cursor: pointer;
+  		font-size: 16px;
+	}
+.delete_buttons:hover
+	{
+		background-color: #b504a0;
+	}
+.menu_form
+	{
+		text-align: center;
+		font-family: Lucida Handwriting;
+		color: white;
+		font-size: 18pt;
+	}
+.actual_username
+	{
+		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #ed13a8;
+	}
+.new_username
+	{
+		width: 50%;
+  		padding: 12px 20px;
+ 		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #940767;
+	}
+.actual_password
+	{
+		width: 50%;
+  		padding: 12px 20px;
+ 		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #cf0a59;
+	}
+.new_password
+	{
+		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #960640;
+	}
+.generic_buttons
+	{
+		border: none;
+		color: white;
+  		padding: 15px 15px;
+ 		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		margin: 4px 2px;
+  		font-size: 16px;
+		background-color: #ff45f3;
+		cursor: pointer;
+	}
+.generic_buttons:hover
+	{
+		background-color: #a827a0;
+	}
+body
+	{
+		background-color: #ff4580;
+		margin: 0;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+table
+	{
+		width: 100%;
+		border-collapse: collapse;
+	}
+.cells
+	{
+		font-family: Lucida Handwriting;
+		border: 5px solid #ff4580;
+		border-spacing:15px;
+	}
+select, option
+	{
+  		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #8627a8;
+	}
+.file_sub
+	{
+		background-color: orange;
+		padding: 12px 20px;
+	}
+#delete
+	{
+		background-color: red;
+	}
+#download
+	{
+		background-color: blueviolet;
+		cursor: context-menu;
+	}
+#status
+	{
+		background-color: forestgreen;
+		cursor: context-menu;
+	}
+#delete:hover
+	{
+		background-color: crimson;
+	}

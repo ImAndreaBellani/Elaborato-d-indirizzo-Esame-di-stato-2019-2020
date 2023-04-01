@@ -1,0 +1,125 @@
+.menubar
+	{
+		background-color: black;
+	}
+.delete_buttons
+	{
+		background-color: red;
+		border: none;
+		color: white;
+  		padding: 15px 15px;
+ 		text-align: center;
+  		display: inline-block;
+  		margin: 4px 2px;
+		cursor: pointer;
+  		font-size: 16px;
+	}
+.delete_buttons:hover
+	{
+		background-color: crimson;
+	}
+.menu_form
+	{
+		text-align: center;
+		font-family: ink free;
+		color: white;
+		font-size: 24pt;
+	}
+.actual_username
+	{
+		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #3CBC8D;
+	}
+.new_username
+	{
+		width: 50%;
+  		padding: 12px 20px;
+ 		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: forestgreen;
+	}
+.actual_password
+	{
+		width: 50%;
+  		padding: 12px 20px;
+ 		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: crimson;
+	}
+.new_password
+	{
+		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #630505;
+	}
+.generic_buttons
+	{
+		border: none;
+		color: white;
+  		padding: 15px 15px;
+ 		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		margin: 4px 2px;
+  		font-size: 16px;
+		background-color: #4CAF50;
+		cursor: pointer;
+	}
+.generic_buttons:hover
+	{
+		background-color: green;
+	}
+body
+	{
+		background-color: #333;
+		margin: 0;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+table
+	{
+		width: 100%;
+		border-collapse: collapse;
+	}
+.cells
+	{
+		font-family: ink free;
+		border: 5px solid #333;
+		border-spacing:15px;
+	}
+select, option
+	{
+  		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: aqua;
+	}
+.file_sub
+	{
+		background-color: orange;
+		padding: 12px 20px;
+	}
+#delete
+	{
+		background-color: red;
+	}
+#download
+	{
+		background-color: blueviolet;
+		cursor: context-menu;
+	}
+#status
+	{
+		background-color: forestgreen;
+		cursor: context-menu;
+	}
+#delete:hover
+	{
+		background-color: crimson;
+	}

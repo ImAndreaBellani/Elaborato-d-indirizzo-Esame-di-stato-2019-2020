@@ -1,0 +1,125 @@
+.menubar
+	{
+		background-color: gray;
+	}
+.delete_buttons
+	{
+		background-color: black;
+		border: none;
+		color: white;
+  		padding: 15px 15px;
+ 		text-align: center;
+  		display: inline-block;
+  		margin: 4px 2px;
+		cursor: pointer;
+  		font-size: 16px;
+	}
+.delete_buttons:hover
+	{
+		background-color: #333;
+	}
+.menu_form
+	{
+		text-align: center;
+		font-family: ROG Fonts;
+		color: white;
+		font-size: 18pt;
+	}
+.actual_username
+	{
+		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #9298a1;
+	}
+.new_username
+	{
+		width: 50%;
+  		padding: 12px 20px;
+ 		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #464a4f;
+	}
+.actual_password
+	{
+		width: 50%;
+  		padding: 12px 20px;
+ 		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #40546e;
+	}
+.new_password
+	{
+		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #2c3a4d;
+	}
+.generic_buttons
+	{
+		border: none;
+		color: white;
+  		padding: 15px 15px;
+ 		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		margin: 4px 2px;
+  		font-size: 16px;
+		background-color: #708fba;
+		cursor: pointer;
+	}
+.generic_buttons:hover
+	{
+		background-color: #3769ad;
+	}
+body
+	{
+		background-color: #313945;
+		margin: 0;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+table
+	{
+		width: 100%;
+		border-collapse: collapse;
+	}
+.cells
+	{
+		font-family: ROG Fonts;
+		border: 5px solid #313945;
+		border-spacing: 15px;
+	}
+select, option
+	{
+  		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #b1bac7;
+	}
+.file_sub
+	{
+		background-color: orange;
+		padding: 12px 20px;
+	}
+#delete
+	{
+		background-color: red;
+	}
+#download
+	{
+		background-color: blueviolet;
+		cursor: context-menu;
+	}
+#status
+	{
+		background-color: forestgreen;
+		cursor: context-menu;
+	}
+#delete:hover
+	{
+		background-color: crimson;
+	}

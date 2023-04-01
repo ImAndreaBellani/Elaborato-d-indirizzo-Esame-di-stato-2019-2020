@@ -1,0 +1,125 @@
+.menubar
+	{
+		background-color: #6008c4;
+	}
+.delete_buttons
+	{
+		background-color: #2c116b;
+		border: none;
+		color: white;
+  		padding: 15px 15px;
+ 		text-align: center;
+  		display: inline-block;
+  		margin: 4px 2px;
+		cursor: pointer;
+  		font-size: 16px;
+	}
+.delete_buttons:hover
+	{
+		background-color: #9d00e6;
+	}
+.menu_form
+	{
+		text-align: center;
+		font-family: Vivaldi;
+		color: white;
+		font-size: 24pt;
+	}
+.actual_username
+	{
+		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #4f19ff;
+	}
+.new_username
+	{
+		width: 50%;
+  		padding: 12px 20px;
+ 		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #3412a3;
+	}
+.actual_password
+	{
+		width: 50%;
+  		padding: 12px 20px;
+ 		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #830fd1;
+	}
+.new_password
+	{
+		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #5f0999;
+	}
+.generic_buttons
+	{
+		border: none;
+		color: white;
+  		padding: 15px 15px;
+ 		text-align: center;
+  		text-decoration: none;
+  		display: inline-block;
+  		margin: 4px 2px;
+  		font-size: 16px;
+		background-color: #4f00e0;
+		cursor: pointer;
+	}
+.generic_buttons:hover
+	{
+		background-color: #640fff;
+	}
+body
+	{
+		background-color: #490563;
+		margin: 0;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	}
+table
+	{
+		width: 100%;
+		border-collapse: collapse;
+	}
+.cells
+	{
+		font-family: Vivaldi;
+		border: 5px solid #490563;
+		border-spacing:15px;
+	}
+select, option
+	{
+  		width: 50%;
+  		padding: 12px 20px;
+  		margin: 8px 0;
+  		box-sizing: border-box;
+		background-color: #c910bd;
+	}
+.file_sub
+	{
+		background-color: #611899;
+		padding: 12px 20px;
+	}
+#delete
+	{
+		background-color: red;
+	}
+#download
+	{
+		background-color: blueviolet;
+		cursor: context-menu;
+	}
+#status
+	{
+		background-color: forestgreen;
+		cursor: context-menu;
+	}
+#delete:hover
+	{
+		background-color: crimson;
+	}
